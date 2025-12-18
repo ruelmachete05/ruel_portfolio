@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 import { useLocation } from 'react-router-dom'; 
 import { FiSave, FiUploadCloud, FiLoader } from 'react-icons/fi';
 import toast, { Toaster } from 'react-hot-toast';
+import BibleVerse from '../BibleVerse/BibleVerse.css';
+
 
 import './Hero.css'; // Make sure this import is here!
 import BibleVerse from '../Bibleverse/Bibleverse.jsx';

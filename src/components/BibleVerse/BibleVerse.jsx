@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './BibleVerse.css';
 
+
 const BibleVerse = () => {
   const [verse, setVerse] = useState('');
   const [loading, setLoading] = useState(true);
